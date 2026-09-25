@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="okatutreasureDataSet5" targetNamespace="http://tempuri.org/okatutreasureDataSet5.xsd" xmlns:mstns="http://tempuri.org/okatutreasureDataSet5.xsd" xmlns="http://tempuri.org/okatutreasureDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="okatutreasureConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="okatutreasureConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.okatutreasure.Properties.Settings.GlobalReference.Default.okatutreasureConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="view_all_fournisseursTableAdapter" GeneratorDataComponentClassName="view_all_fournisseursTableAdapter" Name="view_all_fournisseurs" UserDataComponentName="view_all_fournisseursTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="okatutreasureConnectionString (Settings)" DbObjectName="okatutreasure.dbo.view_all_fournisseurs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idFourniseur, nom, dateAjouter FROM dbo.view_all_fournisseurs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="idFourniseur" DataSetColumn="idFourniseur" />
+              <Mapping SourceColumn="nom" DataSetColumn="nom" />
+              <Mapping SourceColumn="dateAjouter" DataSetColumn="dateAjouter" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="okatutreasureDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="okatutreasureDataSet5" msprop:Generator_DataSetName="okatutreasureDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="view_all_fournisseurs" msprop:Generator_RowEvHandlerName="view_all_fournisseursRowChangeEventHandler" msprop:Generator_RowDeletedName="view_all_fournisseursRowDeleted" msprop:Generator_RowDeletingName="view_all_fournisseursRowDeleting" msprop:Generator_RowEvArgName="view_all_fournisseursRowChangeEvent" msprop:Generator_TablePropName="view_all_fournisseurs" msprop:Generator_RowChangedName="view_all_fournisseursRowChanged" msprop:Generator_RowChangingName="view_all_fournisseursRowChanging" msprop:Generator_TableClassName="view_all_fournisseursDataTable" msprop:Generator_RowClassName="view_all_fournisseursRow" msprop:Generator_TableVarName="tableview_all_fournisseurs" msprop:Generator_UserTableName="view_all_fournisseurs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idFourniseur" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="idFourniseur" msprop:Generator_ColumnPropNameInTable="idFourniseurColumn" msprop:Generator_ColumnVarNameInTable="columnidFourniseur" msprop:Generator_UserColumnName="idFourniseur" type="xs:int" />
+              <xs:element name="nom" msprop:Generator_ColumnPropNameInRow="nom" msprop:Generator_ColumnPropNameInTable="nomColumn" msprop:Generator_ColumnVarNameInTable="columnnom" msprop:Generator_UserColumnName="nom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dateAjouter" msprop:Generator_ColumnPropNameInRow="dateAjouter" msprop:Generator_ColumnPropNameInTable="dateAjouterColumn" msprop:Generator_ColumnVarNameInTable="columndateAjouter" msprop:Generator_UserColumnName="dateAjouter" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:view_all_fournisseurs" />
+      <xs:field xpath="mstns:idFourniseur" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

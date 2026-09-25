@@ -1,0 +1,16 @@
+C:\Users\tyrec\source\repos\okatutreasure\bin\Debug\okatutreasure.exe.config
+C:\Users\tyrec\source\repos\okatutreasure\bin\Debug\okatutreasure.exe
+C:\Users\tyrec\source\repos\okatutreasure\bin\Debug\okatutreasure.pdb
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.csproj.AssemblyReference.cache
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.Accueil.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.Form1.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.Properties.Resources.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.csproj.GenerateResource.cache
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.csproj.CoreCompileInputs.cache
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.exe
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.pdb
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.AddManga.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.Founisseur.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.AjouterFourniseur.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.pagechargement.resources
+C:\Users\tyrec\source\repos\okatutreasure\obj\Debug\okatutreasure.ModifierManga.resources
